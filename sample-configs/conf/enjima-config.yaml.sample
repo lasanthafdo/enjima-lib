@@ -1,0 +1,6 @@
+runtime:
+  eventGenCpuList: "0,1"
+  workerCpuList: "2,3"
+  preAllocationMode: "2"
+metrics:
+  internalUpdateIntervalMs: 50

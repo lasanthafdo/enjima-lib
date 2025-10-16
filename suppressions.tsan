@@ -1,0 +1,8 @@
+#Ignore the fmtlog library for now
+race:fmtlogDetailT<0>::startPollingThread
+race:enjima::runtime::Scheduler::RegisterPipeline
+race:enjima::runtime::DefaultWorkStealingScheduler::RegisterTask
+race:enjima::memory::MemoryManager::GetNextFreeChunk
+race:enjima::runtime::LatencyOptimizedPriorityCalculator::CalculatePriority
+mutex:enjima::runtime::DefaultWorkStealingScheduler::Shutdown
+mutex:enjima::metrics::PeriodicMetricsLogger::Shutdown
