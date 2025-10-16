@@ -11,7 +11,7 @@ sudo apt install build-essential gcc-13 g++-13
 sudo apt install cmake
 ```
 
-If there are multiple gcc versions installed, make sure gcc and g++ are configured to point to g++-10 or later. E.g. if both gcc/g++ 12 and 13 are installed, you can use update-alternatives as follows:
+If there are multiple gcc versions installed, make sure gcc and g++ are configured to point to g++-13 or later. E.g. if both gcc/g++ 12 and 13 are installed, you can use update-alternatives as follows:
 
 ```
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 12
@@ -39,7 +39,6 @@ cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build . -j
 ```
 
+## Running Enjima
 
-
-
-
+The benchmark programs for Enjima are provided in the [enjima-bench](https://github.com/lasanthafdo/enjima-bench) repository (https://github.com/lasanthafdo/enjima-bench). Please follow the instructions in that repository to run the benchmarks after building the Enjima repository.
